@@ -28,6 +28,7 @@ function handleKeyDown (event: React.KeyboardEvent<HTMLInputElement>)  {
 
 return <div className='container'>
     <div className='squareTodo'>
+        <div className='childSquareTodo'>
    <TaskContextProvider >
     <div className='divBtnAddInput'> 
 <input autoFocus type="text" placeholder="Digite sua tarefa" value={Text} onChange={(e)=> {setText(e.target.value) } }
@@ -39,6 +40,8 @@ return <div className='container'>
 {TaskToStorage && <StorageTask TaskToStorage={TaskToStorage} setTaskToStorage={setTaskToStorage}/> }
 
 </TaskContextProvider> 
+
+</div>
 </div>
 
 </div>

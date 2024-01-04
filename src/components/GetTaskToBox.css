@@ -7,7 +7,7 @@ text-align: start;
 }
 ul{
 
-max-width: 250px;
+/* max-width: 250px; */
 margin: 10px auto 0 auto;
 padding: 0;
 display: flex;
