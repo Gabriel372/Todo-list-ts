@@ -1,0 +1,17 @@
+.squareTodo{
+background-color: rgb(223, 183, 155) ;
+max-width: 400px;
+min-height: 150px;
+border-radius: 5px;
+margin: 15px auto 0 auto;
+padding: 10px;
+}
+.btnAdd{
+    color: rgb(100, 53, 53);
+}
+.divBtnAddInput{
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    margin: auto;
+}

@@ -1,0 +1,39 @@
+{
+  "alltasks": [
+    {
+      "text": "varrer",
+      "done": true,
+      "id": "9DmEPKCylRDqJW2gA0ZkR"
+    },
+    {
+      "text": "correr",
+      "done": true,
+      "id": "pdXJBV57ACBEbDuoqyhUC"
+    },
+    {
+      "text": "limpar",
+      "done": true,
+      "id": "p96Q8lssGt-wXjYPXqCCd"
+    },
+    {
+      "text": "secar",
+      "done": true,
+      "id": "vU4_EVHffZflvuJRTb3-n"
+    },
+    {
+      "text": "quarto",
+      "done": true,
+      "id": "ctOdfyIBYaz9DCXBXJdgS"
+    },
+    {
+      "text": "codar",
+      "done": true,
+      "id": "ZAJhHnJdhdh7JOjHfTQsu"
+    },
+    {
+      "text": "pesquisar",
+      "done": true,
+      "id": "te60k2Z3q36Ksfu7K7jmF"
+    }
+  ]
+}

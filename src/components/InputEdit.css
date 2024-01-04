@@ -1,0 +1,9 @@
+.btnSave{
+    margin: 0 0 3px 5px;
+    color: rgb(100, 53, 53);
+}
+.divInputEdit{
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+}
