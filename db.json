@@ -1,44 +1,24 @@
 {
   "alltasks": [
     {
-      "text": "varrer",
+      "text": "lavar o carro",
       "done": true,
-      "id": "9DmEPKCylRDqJW2gA0ZkR"
+      "id": "S-5yhlwv4KshNZiYGPJkA"
     },
     {
-      "text": "correr",
+      "text": "por comida pro cachorro",
       "done": true,
-      "id": "pdXJBV57ACBEbDuoqyhUC"
+      "id": "FP7kC_Wu_e7Yw0HaDXBwQ"
     },
     {
-      "text": "limpar",
-      "done": true,
-      "id": "p96Q8lssGt-wXjYPXqCCd"
-    },
-    {
-      "text": "secar",
-      "done": true,
-      "id": "vU4_EVHffZflvuJRTb3-n"
-    },
-    {
-      "text": "quarto",
-      "done": true,
-      "id": "ctOdfyIBYaz9DCXBXJdgS"
-    },
-    {
-      "text": "codar",
-      "done": true,
-      "id": "ZAJhHnJdhdh7JOjHfTQsu"
-    },
-    {
-      "text": "pesquisar",
-      "done": true,
-      "id": "te60k2Z3q36Ksfu7K7jmF"
-    },
-    {
-      "text": "leradsadsa",
+      "text": "fazer compras",
       "done": false,
-      "id": "2fpycBzQI4aUBwBnfcvaH"
+      "id": "zHGyZS_v2FZrT34xMffDv"
+    },
+    {
+      "text": "trocar o interruptor",
+      "done": false,
+      "id": "ry61wHKCqU4uajbY25gYW"
     }
   ]
 }
