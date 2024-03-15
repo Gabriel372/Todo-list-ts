@@ -2,7 +2,6 @@ import { useEffect,useState } from "react";
 import TaskToDelete from './TaskToDelete'
 import TaskToDone from "./TaskToDone";
 import './GetTaskToBox.css'
-// import ModalEditTask from "./ModalEditTask";
 import {IBoxTask,ITask  } from "./Types";
 import InputEdit from "./InputEdit";
 import { FaPencilAlt } from "react-icons/fa";
@@ -14,7 +13,6 @@ function GetTaskToBox ({ BoxTask,setBoxTask }:IBoxTask ) {
 const [TaskDelete,setTaskDelete] = useState<ITask>()
 const [TaskDone,setTaskDone] = useState<ITask>()
 const [ModalEdtIsTrue,setModalEdtIsTrue] = useState<boolean>(false) 
-// const [TaskEdit,setTaskEdit] = useState<ITask>() 
 const [EditTaskInput,setEditTaskInput] = useState<ITask | null>(null) 
 
 useEffect(() => {
@@ -58,11 +56,9 @@ useEffect(() => {
 
                 </div>
             )}
-                {/* <button onClick={()=> {setModalEdtIsTrue(true);setTaskEdit(task) }}>Editar</button> */}
           </li>
         ))}
-            {/* {ModalEdtIsTrue && <ModalEditTask ModalEdtIsTrue={ModalEdtIsTrue} setModalEdtIsTrue={setModalEdtIsTrue}
-     TaskEdit={TaskEdit} setTaskEdit={setTaskEdit} BoxTask={BoxTask} setBoxTask={setBoxTask} />} */}
+
         {TaskDelete && (
           <TaskToDelete
             TaskDelete={TaskDelete}

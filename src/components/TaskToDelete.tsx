@@ -5,7 +5,6 @@ import { useEffect } from "react";
 interface ITaskDelete {
     TaskDelete: ITask;
     setTaskDelete: React.Dispatch<React.SetStateAction<ITask | undefined>>;
-    // BoxTask:ITask[];
     BoxTask:Array<ITask>;
     setBoxTask:React.Dispatch<React.SetStateAction<Array<ITask>>>;
     }

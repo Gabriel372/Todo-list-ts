@@ -1,7 +1,6 @@
 import { ITask } from "./Types";
 import React from 'react';
 import { useEffect,useState } from "react";
-// import TaskToDelete from './TaskToDelete'
 
 interface ITaskDone {
 TaskDone: ITask;

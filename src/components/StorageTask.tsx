@@ -23,11 +23,7 @@ useEffect(() => {
     },[TaskToStorage]) 
 
     return <div>
-{/*  <button onClick={()=> console.log(TaskToStorage)}>TESTE</button> */}
     </div>
 }
 
 export default StorageTask
-
-
-

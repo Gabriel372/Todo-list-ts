@@ -47,7 +47,8 @@ function UpdateTaskEditInApi(task:ITask) {
         }
       };
 
-return<div className='divInputEdit'><input type="text" autoFocus value={InputValue} onChange={(e) => ChangeTaskEdit(e)}
+return<div className='divInputEdit'>
+<input type="text" autoFocus value={InputValue} onChange={(e) => ChangeTaskEdit(e)}
 onKeyDown={handleKeyDown}/>
 
 <button onClick={ClickTaskEdit } className='btnSave'><FaSave /></button>

@@ -1,9 +1,6 @@
-// import { ITask } from './Itask';
 import style from './ModalEditTask.module.css'
 import { useState } from 'react'
-import {IBoxTask,ITask  } from "./Types";
-// import { Itask } from './TreinoContext/Types2';
-
+import {ITask  } from "./Types";
 
 interface IModalEdtIsTrue {
     ModalEdtIsTrue:boolean;
@@ -51,10 +48,6 @@ return <div className={`${ModalEdtIsTrue ? style.modalOn : style.modalOff}`}>
 
 <button  className={style.btnNot} onClick={ClickTaskEdit}>Atualizar</button>
 
- {/* <h4 className={style.h4ModDel}>Deseja deletar esse cliente ?</h4>   */}
-
- {/* <button  className={style.btnNot} onClick={()=>{props.setModInterruptDel(false)}}>Não</button>
- <button  className={style.btnYes} onClick={()=>{AllEmitionsDelete()}}>Sim</button> */}
  </div>  
 
 </div> 

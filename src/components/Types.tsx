@@ -13,7 +13,6 @@ export class ITask {
 
 export type IBoxTask = {
 BoxTask:Array<ITask>;
-// setBoxTask:(value:Array<ITask>)=> void
 setBoxTask:React.Dispatch<React.SetStateAction<Array<ITask>>>; 
 }
 
