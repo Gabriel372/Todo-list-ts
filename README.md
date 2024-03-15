@@ -1,3 +1,7 @@
+Um projeto que apesar de ser pequeno exige conhecimento em React js e Typescript ,cada tarefa é armazenda via chamada api com banco de dados simulado com json server
+
+![todoListImg](https://github.com/Gabriel372/Todo-list-ts/assets/124525153/55185192-b4e7-4598-bf60-2b0b573cd9fa)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
